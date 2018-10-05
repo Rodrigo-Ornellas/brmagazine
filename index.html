@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>gazine - Ornellas, Rodrigo</title>
+      	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<link rel="stylesheet" type="text/css" href="final.css">
+  		<script src="https://use.fontawesome.com/f648a98062.js"></script>
+  		<link rel="icon" type="image/png" href="images/myicon.png">
+
+
+	<!-- embed for jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script>
+		
+		// This function makes sure document is ready before executing jQuery code
+		$(document).ready(function(){
+                  
+
+                $("header nav .fa-bars").on("click", function(){
+
+                     $("header ul").fadeToggle();
+                     $("main h1").fadeToggle();
+                     $("header .inputSearch").fadeToggle();
+                     $("header #btnSearch").fadeToggle();
+                });
+
+		});
+	</script>
+
+	</head>
+
+
+
+	<body>
+		<div class="wrapper">
+			<header>
+				
+				<nav>
+						<form method="post" id="formSearch" action="http://webdevbasics.net/scripts/demo.php">
+
+							<label for="searchBox" class="visuallyhidden">Search here</label>
+							<input type="search" class="inputSearch" name="searchBox" placeholder="search here...">
+							<label for="btnSearch" class="visuallyhidden">Click to Search</label>
+			 				<button id="btnSearch"><span class="visuallyhidden">search</span></button>
+
+					 	</form>
+						<i class="fa fa-bars fa-lg" aria-hidden="true"><span class="visuallyhidden">Menu</span></i>
+
+						<ul>
+							<li class="selected"><span>home</span></li>
+							<li><a href="article.html">article</a></li>
+							<li><a href="events.html">events</a></li>
+							<li><a href="source.html">sources</a></li>
+							<li><a href="contact.html">contact</a></li>
+
+						</ul>
+				</nav>
+
+
+				<div class="bkground">
+					<a href="index.html"><img class="logo" src="images/sitelogo.png" alt="site logo"></a>
+				</div>
+
+			</header>
+
+
+		<main class="clearfix">
+
+			
+			<h1>Beauty Brazil</h1>
+
+			
+			<section class="topsec">
+				<p class="title"> > lots of events to participate and enjoy</p>
+				<h2>Amazing Brazilian Carnival</h2>
+
+					
+				
+					<figure>
+						<img src="images/carnivaldancer.png" alt="brazilian dancer dressed on carnival custom">
+						<figcaption>main</figcaption>
+					</figure>
+				
+
+					<p>Carnival is the most famous holiday in Brazil and has become an event of huge proportions. It is an annual week long festival that unites all of Brazil and nearly brings the country to a hault.</p>
+					<p>Festivities are intense, day and night, mainly in coastal cities. Rio de Janeiro's carnival alone drew 4.9 million people in 2011, with 400,000 being foreigners.</p>
+
+					<p><a href="article.html"> read more<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+
+			</section>    <!-- END OF TOPSEC -->
+
+			<aside>
+				<p class="title"> > things you could never imagine</p>
+				<h2>Interesting Facts</h2>
+				
+				<p>Do you want to learn some basic facts about Brazil? This video will quickly take you through a brief introduction about Brazil geography, climate and other interesting facts.</p>
+
+				
+				
+					<figure>
+						<img src="images/brazilflag.png" alt="map of Brazil with the flag in the middle">
+						<figcaption>facts</figcaption>
+					</figure>
+				
+
+				<ol>
+					<li>Largest country of South America</li>
+					<li>Fifth largest country in land mass in the World</li>
+					<li>Fifth largest country in population in the World ( 205 million people )</li>
+					<li>World longest country from north to south with 4395 km</li>
+					<li>Longest continuous costline in the world with 7491 km</li>
+					<li>Brazil has 4 timezones</li>
+					<li>130 million cathoclics - more cathoclics than any other country</li>
+					<li>Responsible for 90% of the portuguese speaking people in the World</li>
+<!-- 						<li>Brazil has classified to all world cup tournaments since it's creation</li>
+					<li>Brazil is so long that it crosses the Equator and the Tropic of Capricorn</li>
+					<li>Brazil has the largest colony of Japanese people outside of Japan</li> -->
+				</ol>
+
+				<a href="https://www.youtube.com/watch?time_continue=2&v=VTEJk8vPWFE" target="_blank"><p>read more<i class="fa fa-angle-double-right" aria-hidden="true"></i></p></a>
+
+
+
+			</aside>		<!-- END OF OUTSIDE -->
+
+			<div class="middlesec">
+
+				<section>
+					<p class="title"> > incredible events all year round</p>
+					<h2>Major Brazilian Festivals</h2>
+
+					
+						<figure >
+							<img src="images/rockguitar.png" alt="man playing eletric guitar at rock in rio">
+							<figcaption>events</figcaption>
+						</figure>
+					
+					
+					<p>Brazil is a continental country with incridible culture. Brazilians are a happy people that love to party. Most parties have religious origin.</p>
+
+
+
+					<p>From North to South from January to December, there is it is possible to find a Festival or a Celebration happening somewhere in Brazil.</p>
+
+					<p><a href="events.html">read more<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+				</section>
+
+				<section>
+					<p class="title"> > for those that are great fans!</p>
+					<h2>Brazilian Soccer Facts</h2>
+					
+
+					
+						<figure>
+							<img src="images/soccerstadium.png" alt="soccer fan wearing brazilian national team shirt at football stadium">
+							<figcaption>soccer</figcaption>
+						</figure>
+					
+
+					<p>The Brazilian national team has many nicknames and are known in different parts of the world. Being Canarinho the most famous, meaning "Little Canary", a phrase that was popularized by the late cartoonist Fernando "Mangabeira" Pieruccetti during the 1950 World Cup.</p>
+
+					<p>Many distinguished commentators consider the 1970 brazilian squad to be the greatest association football team ever, although some argue the case for other teams.</p>
+
+					<p>Brazil is the only national team to have won the World Cup on four different continents: once in Europe (1958 Sweden), once in South America (1962 Chile), twice in North America (1970 Mexico and 1994 United States) and once in Asia (2002 Korea/Japan).</p>
+
+					<p><a href="https://en.wikipedia.org/wiki/Brazil_national_football_team" target="_blank">read more<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+
+				</section>
+
+			</div> <!-- END OF MIDDLE SECTION -->
+
+
+			<div class="middlesec2">	
+				
+					<section>
+						<p class="title">> Brazilian Very Recent Events</p>
+						<h2>It is not all party!</h2>
+						<p>In recent years, Brazil has gone through a roler coaster of tormoil. And this video, quickly and effectively describes these recent events.</p>
+
+						<div class="video">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/Oc0LsXlXYAs?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+
+						</div>
+
+					</section>
+
+					<section>
+						<p class="title">> Where are the origins of Brazil?</p>
+
+						<h2>Understanding Brazil</h2>
+						
+						
+							<figure>
+								<img src="images/independence.png" alt="historic painting showing brazilian independence day">
+								<figcaption>facts</figcaption>
+							</figure>
+						
+						
+						<p>Are you a history affictionado? Do you want to understand more about Brazilian history and some many interesting facts that define who we are?</p>
+						<p><a href="https://en.wikipedia.org/wiki/History_of_Brazil" target="_blank">read more<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+
+					</section>
+
+			</div>
+
+		</main>
+		
+		<footer class="clearfix">
+
+			<div>
+				<p class="pbold">About us:</p>
+				 <p>Beauty Brazil is a magazine dedicated to present the incredible country of Brazil. We hope you enjoy the articles and feel moved to visit this exuberating place that will enchant you with it's people, culture, cusine and over all beauty. An experience that will change you for life.</p>
+				 <p>designed by: <a href="contact.html">Rodrigo Ornellas</a>
+				 - Copyright<i class="fa fa-copyright" aria-hidden="true"></i>2017</p>
+			</div>
+
+			<div class="aligncenter">
+
+				<p class="pbold">Contact us:</p>
+				<a href="https://www.facebook.com/joaoguilherme.silvacamargo" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"><span class="visuallyhidden">Facebook</span></i></a>
+				<a href="#" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"><span class="visuallyhidden">Twitter</span></i></a>
+				<a href="#" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"><span class="visuallyhidden">Instagram</span></i></a>
+
+			</div>
+
+			<div>
+				<p class="pbold">Menu:</p>
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="article.html">article</a></li>
+					<li><a href="events.html">events</a></li>
+					<li><a href="source.html">sources</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</ul>
+			</div>
+
+
+
+
+
+
+		</footer>
+
+		</div> 		<!-- END OF WRAPPER -->
+
+
+
+	</body>
+</html>

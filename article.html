@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>gazine - Ornellas, Rodrigo</title>
+      	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<link rel="stylesheet" type="text/css" href="final.css">
+  		<script src="https://use.fontawesome.com/f648a98062.js"></script>
+  		<link rel="icon" type="image/png" href="images/myicon.png">
+
+
+	<!-- embed for jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script>
+		
+		// This function makes sure document is ready before executing jQuery code
+		$(document).ready(function(){
+                  
+
+                $("header nav .fa-bars").on("click", function(){
+
+                     $("header ul").fadeToggle();
+                     $("main h1").fadeToggle();
+                     $("header .inputSearch").fadeToggle();
+                     $("header #btnSearch").fadeToggle();
+                });
+
+		});
+	</script>
+
+	</head>
+
+
+
+	<body>
+		<div class="wrapper">
+			<header>
+				
+				<nav>
+						<form method="post" id="formSearch" action="http://webdevbasics.net/scripts/demo.php">
+
+							<label for="searchBox" class="visuallyhidden">Search here</label>
+							<input type="search" class="inputSearch" name="searchBox" placeholder="search here...">
+							<label for="btnSearch" class="visuallyhidden">Click to Search</label>
+			 				<button id="btnSearch"><span class="visuallyhidden">search</span></button>
+
+					 	</form>
+						<i class="fa fa-bars fa-lg" aria-hidden="true"><span class="visuallyhidden">Menu</span></i>
+
+
+
+					<ul>
+						<li><a href="index.html">home</a></li>
+						<li class="selected"><span>article</span></li>
+						<li><a href="events.html">events</a></li>
+						<li><a href="source.html">sources</a></li>
+						<li><a href="contact.html">contact</a></li>
+					</ul>
+			</nav>
+
+			
+
+			<div class="bkground">
+				<a href="index.html"><img class="logo" src="images/sitelogo.png" alt="site logo"></a>
+
+			</div>
+
+		</header>
+
+		<main>
+		
+  			<h1>Article</h1>
+			
+			<article class="clearfix">
+
+				<h2>Amazing Brazilian Carnival</h2>
+				<p id="author">November 27, 2017<br>By Rodrigo Ornellas and Wikipedia</p>
+				<figure>
+					<img src="images/carnivaldancer.png" alt="brazilian dancer dressed on carnival custom" class="imgLeft">
+				</figure>
+
+				<p>Carnival of Brazil is an annual Brazilian festival held between the Friday afternoon (51 days before Easter) and Ash Wednesday at noon, which marks the beginning of Lent, the forty-day period before Easter. On certain days of Lent, Roman Catholics and some other Christians traditionally abstained from the consumption of meat and poultry, hence the term "carnival," from carnelevare, "to remove (literally, "raise") meat."</p>
+
+				<h3>Differences Across Brazil</h3>
+
+				<p>Rhythm, participation, and costumes vary from one region of Brazil to another. In the southeastern cities of Rio de Janeiro, São Paulo, and Vitória, huge organized parades are led by samba schools. Those official parades are meant to be watched by the public, while minor parades ("blocos") allowing public participation can be found in other cities, like Belo Horizonte, also in the southeastern region. The northeastern cities of Recife, Olinda, Salvador, and Porto Seguro have organized groups parading through streets, and public interacts directly with them. This carnival is also influenced by African-Brazilian culture. It is a six-day party where crowds follow the "trios elétricos" through the city streets, dancing and singing. Also in northeast, Olinda carnival features unique characteristics, heavily influenced by local folklore and cultural manifestations, such as Frevo and Maracatu.</p>
+
+
+				<figure>
+					<img src="images/sambaschool.png" alt="Picture of a samba school at carnival celebration in Rio de Janeiro" class="imgLeft">
+				</figure>
+
+				<h3>Music Genres</h3>
+
+				<p>The typical genres of music of Brazilian carnival are, in the Southeast Region in general, mostly cities of Rio de Janeiro and São Paulo: the samba-enredo, the samba de bloco, the samba de embalo and the marchinha; and in the Northeast Region including Pernambuco (mostly cities of Olinda and Recife): frevo and maracatu, and Bahia (mostly the city of Salvador): samba-reggae, pagode (also a type of Samba) and the main genre axé music.</p>
+
+				<h3>Most Famous Hoilday</h3>
+
+				<p>Carnival is the most famous holiday in Brazil and has become an event of huge proportions. It is an annual weeklong festival that unites all of Brazil and nearly brings the country to a halt. Except for industrial production, retail establishments such as malls, and carnival-related businesses, the country unifies completely for almost a week. Festivities are intense, day and night, mainly in coastal cities. Rio de Janeiro's carnival alone drew 4.9 million people in 2011, with 400,000 being foreigners.</p>
+
+				<h3>Sao Paulo Style</h3>
+
+				<p>The carnival in São Paulo takes place in the Anhembi Sambadrome on the Friday and Saturday night of the week of Carnival, as opposed to Rio's Carnival, which is held on Sunday and Monday night.</p>
+
+				<p>Various "samba schools" compete in a huge parade. Each school presents a different theme, which they expose through their costumes, dance, music, and the allegorical cars or "carros alegóricos", huge vehicles decorated according to the theme designed specifically for the parade.</p>
+
+				<p>The schools are responsible for choosing their own themes, which usually revolve around historical happenings or some sort of cultural or political movement.</p>
+
+				<p>The most famous (and usually the winners) samba schools are: Nenê de Vila Matilde, Gaviões da Fiel, Vai-Vai, Camisa Verde Branco, Peruche, Mocidade Alegre, Rosas de Ouro, Vila Maria, Mancha Verde, and Império da Casa Verde.</p>
+
+				<h3>Aguia de Ouro Samba School and Joao Guilherme</h3>
+
+				
+			<figure>
+				<img src="images/jg_noivado.jpg" alt="joyful Joao removing his hat full of red paper in it" class="imgLeft">
+			</figure>
+
+				<p>Aguia de Ouro is also one of the famous and traditional samba schools from Sao Paulo and is located at Pompeia borough. Like all the samba schools, Aguia de Ouro, depends on the dedication of their contributors to organize, prepare and execute the show every year. Unlike many people might think, the show that happens once a year needs a lot of work and 12 months of preparation.</p>
+
+				<p>These shows are prepared every year by people like Joao Guilherme, his mother Jo Camargo and friends and their families. They are moved by friendship and passion for the school, the music and the Carnival energy.</p>
+
+				<p>In the picture is Joao Guilherme, a young man that used to be part of the Aguia de Ouro samba school. Joao Guilherme played a traditional percusion instrument with a unique sound and he was part of a very important part of the school called "Bateria". The "Bateria" is the group of instrument players that give a beautiful and loud show and that unifies all other participants around the music their playing and singing.</p>
+
+				<p>Although Joao Guilherme is no longer with us. The school still celebrates Carnival every year without forgetting Joao Guilherme's energy. Joao Guilherme died in November 25th, 2013 due to a motorcycle accident. Joao Guilherme was a great person who left us at the top of his life with only 21 years of age.</p>
+
+				<h3>Tribute to Joao Guilherme</h3>
+				
+				<p>Joao Guilherme, keep the party alive, wherever you are!
+
+				<p>This is my tribute to keep his memory alive. Please, visit <a href="https://www.facebook.com/joaoguilherme.silvacamargo">Joao Guilherme's Facebook Page<i class="fa fa-facebook-official" aria-hidden="true"></i></a> and leave him a nice message. Don't be alarmed if you receive a message back from his mother who still keeps his page and memory alive.</p>
+
+				<p>Check out the video to see Joao Guilherme and his mates play during a rehearsal for their presentation. This is an amateur video filmed by friends from the Aguia de Ouro school. Don't mind the quality and try to enjoy the energy of Brazilian Samba and the strong beat. Joao is there playing with his friends. Enjoy!</p>
+
+				<div class="videojg">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/jH4Is923kwE?rel=0&amp;showinfo=0&amp;start=101" allowfullscreen></iframe>
+					</div>
+
+			</article>
+
+		</main>
+
+
+
+	<footer class="clearfix">
+
+			<div>
+				<p class="pbold">About us:</p>
+				 <p>Beauty Brazil is a magazine dedicated to present the incredible country of Brazil. We hope you enjoy the articles and feel moved to visit this exuberating place that will enchant you with it's people, culture, cusine and over all beauty. An experience that will change you for life.</p>
+				 <p>designed by: <a href="contact.html">Rodrigo Ornellas</a>
+				 - Copyright<i class="fa fa-copyright" aria-hidden="true"></i>2017</p>
+			</div>
+
+			<div class="aligncenter">
+
+				<p class="pbold">Contact us:</p>
+				<a href="https://www.facebook.com/joaoguilherme.silvacamargo" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"><span class="visuallyhidden">Facebook</span></i></a>
+				<a href="#" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"><span class="visuallyhidden">Twitter</span></i></a>
+				<a href="#" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"><span class="visuallyhidden">Instagram</span></i></a>
+
+			</div>
+
+			<div>
+				<p class="pbold">Menu:</p>
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="article.html">article</a></li>
+					<li><a href="events.html">events</a></li>
+					<li><a href="source.html">sources</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</ul>
+			</div>
+
+
+
+
+
+
+		</footer>
+
+		</div> 		<!-- END OF WRAPPER -->
+
+
+
+	</body>
+</html>

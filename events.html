@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>gazine - Ornellas, Rodrigo</title>
+      	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<link rel="stylesheet" type="text/css" href="final.css">
+  		<script src="https://use.fontawesome.com/f648a98062.js"></script>
+  		<link rel="icon" type="image/png" href="images/myicon.png">
+
+
+	<!-- embed for jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script>
+		
+		// This function makes sure document is ready before executing jQuery code
+		$(document).ready(function(){
+                  
+
+                $("header nav .fa-bars").on("click", function(){
+
+                     $("header ul").fadeToggle();
+                     $("main h1").fadeToggle();
+                     $("header .inputSearch").fadeToggle();
+                     $("header #btnSearch").fadeToggle();
+                });
+
+		});
+	</script>
+
+	</head>
+
+
+
+	<body>
+		<div class="wrapper">
+			<header>
+				
+				<nav>
+						<form method="post" id="formSearch" action="http://webdevbasics.net/scripts/demo.php">
+
+							<label for="searchBox" class="visuallyhidden">Search here</label>
+							<input type="search" class="inputSearch" name="searchBox" placeholder="search here...">
+							<label for="btnSearch" class="visuallyhidden">Click to Search</label>
+			 				<button id="btnSearch"><span class="visuallyhidden">search</span></button>
+
+					 	</form>
+						<i class="fa fa-bars fa-lg" aria-hidden="true"><span class="visuallyhidden">Menu</span></i>
+
+					<ul>
+						<li><a href="index.html">home</a></li>
+						<li><a href="article.html">article</a></li>
+						<li class="selected"><span>events</span></li>
+						<li><a href="source.html">sources</a></li>
+						<li><a href="contact.html">contact</a></li>
+					</ul>
+			</nav>
+
+			<div class="bkground">
+				<a href="index.html"><img class="logo" src="images/sitelogo.png" alt="site logo"></a>
+
+			</div>
+
+		</header>
+
+		<main>
+
+			<h1>Events Br</h1> 
+ 
+			<div class="events clearfix">
+
+				
+
+				<section>
+					<h2>New Years Eve</h2>
+					<p class="month"> > month: December</p>
+					<figure>
+						<img src="images/fireworks.png" alt="night view of the sky full of fireworks">
+					</figure>
+					<p>New Years Eve is a very celebrate date in Brazil. Most brazilians will join their families to celebrate it. There is also another portion of the population that tries to schedule their vacation around this time and look for beach cities along the extense brazilian shoreline to expend this holiday.</p>
+
+					<p>Also known as Reveillon, some brazilians have the tradition to dine with their family and wait for the countdown. Where ever you are there will be fireworks around midnight.</p>
+
+					<p>Rio de Janeiro is the most famous New Years Eve celebration in Brazil and atracts people from all over Brazil and the World.</p>	
+
+					<p><a href="http://passportto.iberostar.com/2012/10/reveillon-brazils-biggest-new-year-party/" target="_blank"> read more<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+				</section>
+
+				<section>
+					
+					
+					<h2>Carnaval</h2>
+					<p class="month"> > month: February</p>
+					<figure>
+						<img src="images/carnivaldancer.png" alt="brazilian dancer dressed on carnival custom">
+					</figure>
+
+					<p>Carnival of Brazil is an annual Brazilian festival held between the Friday afternoon (51 days before Easter) and Ash Wednesday at noon, which marks the beginning of Lent, the forty-day period before Easter. On certain days of Lent, Roman Catholics and some other Christians traditionally abstained from the consumption of meat and poultry, hence the term "carnival," from carnelevare, "to remove (literally, "raise") meat."</p>
+
+					<p>Rhythm, participation, and costumes vary from one region of Brazil to another. In the southeastern cities of Rio de Janeiro, São Paulo, and Vitória, huge organized parades are led by samba schools.</p>
+
+					<p><a href="https://en.wikipedia.org/wiki/Brazilian_Carnival" target="_blank"> read more<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+				</section>
+
+				<section>
+					<h2>Festa de Sao Joao</h2>
+					<p class="month"> > month: June</p>
+					<figure>
+						<img src="images/festajunina.png" alt="resort swiming pool view">
+					</figure>
+
+					<p>Festa Junina (June Festival), also known as festa de São João, celebrate the nativity of St. John the Baptist (June 24). Annual Brazilian celebrations historically related to European Midsummer that take place in the beginning of the Brazilian winter. These festivities, are celebrated during the month of June nationwide both in Brazil and Portugal.</p>
+
+					<p>The feast is mainly celebrated on the eves of the Catholic solemnities of Saint Anthony, Saint John the Baptist, and Saint Peter. They also celebrate rural life and feature typical clothing, food, dance (particularly quadrilha, which is similar to square dancing).</p>
+
+					<p><a href="https://en.wikipedia.org/wiki/Festa_Junina" target="_blank"> read more<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+				</section>
+
+				<section>
+					
+					<h2>Festa de Parintins</h2>
+					<p class="month"> > month: June</p>
+					<figure>
+						<img src="images/parintins.png" alt="parintins festival and dancers">
+					</figure>
+					
+					<p>Parintins Folklore Festival is a very popular annual celebration held in the Brazilian city of Parintins, in the state of Amazonas. It is one of the largest the annual festival in Brazil; only the Carnival festivities in Rio de Janeiro and Salvador draw more participants.</p>
+
+					<p>Often called Festival do Boi-Bumbá, Bumba Meu Boi, or simply Festival. It celebrates a local legend about a resurrected ox. It is also a competition where two teams, Garantido and Caprichoso, compete in extended retellings of the story, each team attempting to outdo the other with flamboyant dances, singing, and parade floats. </p>
+
+					<p><a href="https://en.wikipedia.org/wiki/Parintins_Folklore_Festival" target="_blank"> read more<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+
+				</section>
+
+				<section>
+					
+					<h2>Rock 'n Rio</h2>
+					<p class="month"> > month: September</p>
+					<figure>
+						<img src="images/rockguitar.png" alt="man playing eletric guitar at rock in rio">
+					</figure>
+
+
+					<p>Rock in Rio is a recurring music festival originating in Rio de Janeiro, Brazil. It later branched into other locations such as Lisbon, Madrid and Las Vegas. Rock in Rio is one of the largest music festivals in the world, with 1.5 million people attending the first event.</p>
+
+					<p>Seven incarnations of the festival were held in Rio de Janeiro, in 1985, 1991, 2001, 2011, 2013, 2015, and 2017, seven in Lisbon, in 2004, 2006, 2008, 2010, 2012, 2014 and 2016, three in Madrid in 2008, 2010 and 2012, and one in Las Vegas, in 2015.</p>
+
+					
+
+					<p><a href="https://en.wikipedia.org/wiki/Rock_in_Rio" target="_blank"> read more<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+
+				</p>
+				</section>
+
+				<section>
+					<h2>OktoberFest</h2>
+					<p class="month"> > month: September</p>
+					<figure>
+						<img src="images/biermug.png" alt="image of a glass of bier">
+					</figure>
+
+					
+
+					<p>The Oktoberfest of Blumenau is a festival of Germanic traditions that happens in middle October in the city of Blumenau, Santa Catarina, Brazil. It is considered the biggest German festival of all Americas, and the one of the biggest Oktoberfest celebration along with the Kitchener-Waterloo Oktoberfest and after the original Oktoberfest from Munich.</p>
+
+					<p>The festival takes place at Parque Vila Germanica (Germanic Village Park), located in the Bairro da Velha (District of the Old Woman), and lasts for 17 days. The Oktoberfest of Blumenau was created at 1984.</p>
+
+					<p><a href="https://en.wikipedia.org/wiki/Oktoberfest_of_Blumenau" target="_blank"> read more<i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+
+				</section>
+
+			</div> <!-- END OF MIDDLE SECTION -->
+
+		</main>
+
+		<footer class="clearfix">
+
+			<div>
+				<p class="pbold">About us:</p>
+				 <p>Beauty Brazil is a magazine dedicated to present the incredible country of Brazil. We hope you enjoy the articles and feel moved to visit this exuberating place that will enchant you with it's people, culture, cusine and over all beauty. An experience that will change you for life.</p>
+				 <p>designed by: <a href="contact.html">Rodrigo Ornellas</a>
+				 - Copyright<i class="fa fa-copyright" aria-hidden="true"></i>2017</p>
+			</div>
+
+			<div class="aligncenter">
+
+				<p class="pbold">Contact us:</p>
+				<a href="https://www.facebook.com/joaoguilherme.silvacamargo" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"><span class="visuallyhidden">Facebook</span></i></a>
+				<a href="#" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"><span class="visuallyhidden">Twitter</span></i></a>
+				<a href="#" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"><span class="visuallyhidden">Instagram</span></i></a>
+
+			</div>
+
+			<div>
+				<p class="pbold">Menu:</p>
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="article.html">article</a></li>
+					<li><a href="events.html">events</a></li>
+					<li><a href="source.html">sources</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</ul>
+			</div>
+
+
+
+
+
+
+		</footer>
+
+		</div> 		<!-- END OF WRAPPER -->
+
+
+
+	</body>
+</html>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>gazine - Ornellas, Rodrigo</title>
+      	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<link rel="stylesheet" type="text/css" href="final.css">
+  		<script src="https://use.fontawesome.com/f648a98062.js"></script>
+  		<link rel="icon" type="image/png" href="images/myicon.png">
+
+
+	<!-- embed for jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script>
+		
+		// This function makes sure document is ready before executing jQuery code
+		$(document).ready(function(){
+                  
+
+                $("header nav .fa-bars").on("click", function(){
+
+                     $("header ul").fadeToggle();
+                     $("main h1").fadeToggle();
+                     $("header .inputSearch").fadeToggle();
+                     $("header #btnSearch").fadeToggle();
+                });
+
+		});
+	</script>
+
+	</head>
+
+
+
+	<body>
+		<div class="wrapper">
+			<header>
+				
+				<nav>
+						<form method="post" id="formSearch" action="http://webdevbasics.net/scripts/demo.php">
+
+							<label for="searchBox" class="visuallyhidden">Search here</label>
+							<input type="search" class="inputSearch" name="searchBox" placeholder="search here...">
+							<label for="btnSearch" class="visuallyhidden">Click to Search</label>
+			 				<button id="btnSearch"><span class="visuallyhidden">search</span></button>
+
+					 	</form>
+						<i class="fa fa-bars fa-lg" aria-hidden="true"><span class="visuallyhidden">Menu</span></i>
+
+
+
+					<ul>
+						<li><a href="index.html">home</a></li>
+						<li><a href="article.html">article</a></li>
+						<li><a href="events.html">events</a></li>
+						<li class="selected"><span>sources</span></li>
+						<li><a href="contact.html">contact</a></li>
+					</ul>
+			</nav>
+
+			<div class="bkground">
+				<a href="index.html"><img class="logo" src="images/sitelogo.png" alt="site logo"></a>
+
+			</div>
+
+		</header>
+
+		<main>
+
+				<h1>Sources</h1>
+
+				<section class="source">
+
+					<h2>Images & Articles</h2>
+					
+					<p>Special thanks to the authors and photographers of the images, icons and websites used to compose this project</p>
+
+				<div class="table-resp">
+					<table>
+
+					<thead>
+						<tr><th>type</th><th>content</th><th>url</th><th>author</th></tr>
+					</thead>
+					
+					<tbody>
+					
+						<tr>
+							<td>image</td>
+							<td>
+								<img src="images/carnivaldancer.png" alt="brazilian dancer dressed on carnival custom">
+							</td>
+							<td>
+								<a href="https://www.pexels.com/photo/red-woman-creative-summer-48796/" target="_blank">url</a>
+							</td>
+							<td>Image provided by <a href="https://www.pexels.com/" target="_blank">Pexels</a> from <a href="https://pixabay.com/" target="_blank">pixabay.com</a> is licensed by <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank">CC0 by 1.0</a> - Creative Commons Zero License
+							</td>
+						</tr>
+
+						<tr>
+							<td>image</td>
+							<td>
+								<img src="images/fireworks.png" alt="night view of the sky full of fireworks">
+							</td>
+							<td>
+								<a href="https://www.pexels.com/photo/sky-night-summer-festival-73814/" target="_blank">url</a>
+							</td>
+							<td>Image provided by <a href="https://www.pexels.com/" target="_blank">Pexels</a> from <a href="pixabay.com" target="_blank">pixabay.com</a> is licensed by <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank">CC0 by 1.0</a> - Creative Commons Zero License
+							</td>
+						</tr>
+
+						<tr>
+							<td>image</td>
+							<td>
+								<img src="images/sitelogo.png" alt="site logo">
+							</td>
+							<td></td>
+							<td>Vector image created by <a href="http://mylinux.langara.bc.ca/~rornellas00/resume/index.html" target="_blank">Rodrigo Ornellas</a>. All rights reserved.
+							</td>
+						</tr>
+
+						<tr>
+							<td>image</td>
+							<td>
+								<img src="images/festajunina.png" alt="traditional brazilian dancing group"></td><td><a href="https://www.flickr.com/photos/agecombahia/5844108595/" target="_blank">url</a>
+							</td>
+							<td>Image provided by <a href="http://photosforclass.com/" target="_blank">PhotosForClass.com</a> from <a href="https://www.flickr.com/people/agecombahia/" target="_blank">FotosGOVBA</a> licensed under <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">CC by 2.0</a> - Attribution 2.0 Generic License. <br><br>Photograph taken by Mateus Pereira/Secom.
+							</td>
+						</tr>
+
+						<tr>
+							<td>image</td>
+							<td>
+								<img src="images/headerbeach.png" alt="beach side ocean view scene">
+							</td>
+							<td><a href="https://www.pexels.com/photo/seashore-under-white-and-blue-sky-during-sunset-210205/" target="_blank">url</a>
+							</td>
+							<td>Image provided by <a href="https://www.pexels.com/" target="_blank">Pexels</a> from <a href="pixabay.com" target="_blank">pixabay.com</a> licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 by 1.0</a> - Creative Commons Zero License
+							</td>
+						</tr>
+
+						<tr>
+							<td>image</td>
+							<td>
+								<img src="images/independence.png" alt="photo reproduction of famous painting of Independence of Brazil">
+							</td>
+							<td>
+								<a href="https://en.wikipedia.org/wiki/Independence_Day_(Brazil)#/media/File:Independence_of_Brazil_1888.jpg" target="_blank">url</a>
+							</td>
+							<td>This is a faithful photographic reproduction of a two-dimensional, public domain work of art.<br><br>The official position taken by the Wikimedia Foundation is that "faithful reproductions of two-dimensional public domain works of art are public domain". <br><br>Image downloaded from <a href="https://commons.wikimedia.org/wiki/File:Independence_of_Brazil_1888.jpg" target="_blank">Wikipedia</a> as <a href="https://en.wikipedia.org/wiki/Wikipedia:Public_domain_image_resources" target="_blank">Public Domain</a>
+							</td>
+						</tr>
+
+						<tr>
+							<td>image</td>
+							<td>
+								<img src="images/sambaschool.png" alt="Picture of a samba school at carnival celebration in Rio de Janeiro">
+							</td>
+							<td>
+								<a href="https://www.flickr.com/photos/fotosagenciabrasil/16363666648/" target="_blank">url</a>
+							</td>
+							<td>This photograph was produced by <a href="https://en.wikipedia.org/wiki/Ag%C3%AAncia_Brasil" target="_blank">Agência Brasil</a> (public Brazilian news agency). Published under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">CC BY-NC-SA 2.0</a> - NonCommercial-ShareAlike 2.0 Generic License. <br><br>Photograph taken by Tânia Rêgo.
+							</td>
+						</tr>
+
+						<tr>
+							<td>image</td>
+							<td>
+								<img src="images/parintins.png" alt="Parintins Festival Stadium Areal View">
+							</td>
+							<td>
+								<a href="https://en.wikipedia.org/wiki/Parintins_Folklore_Festival#/media/File:Festival_Folcl%C3%B3rico_de_Parintins.jpg" target="_blank">url</a>
+							</td>
+							<td>This photograph was produced by <a href="https://en.wikipedia.org/wiki/Ag%C3%AAncia_Brasil" target="_blank">Agência Brasil</a> (public Brazilian news agency). This content was published under the <a href="https://creativecommons.org/licenses/by/3.0/br/deed.en" target="_blank">CC by 3.0 BR</a> - Creative Commons Attribution 3.0 Brazil License. <br><br>Photograph taken by <a href="http://yourshot.nationalgeographic.com/profile/1297893/" target="_blank">Ricardo Stuckert.</a>
+							</td>
+						</tr>
+
+						<tr>
+							<td>image</td>
+							<td>
+								<img src="images/rockguitar.png" alt="man playing eletric guitar at rock in rio">
+							</td>
+							<td>
+								<a href="https://www.pexels.com/photo/person-playing-string-instruments-144428/" target="_blank">url</a>
+							</td>
+							<td>From <a href="https://www.pexels.com/u/suvan-chowdhury-37305/">Suvan Chowdhury</a> published under the <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 by 1.0</a> - Creative Commons Zero License
+							</td>
+						</tr>
+
+						<tr>
+							<td>image</td>
+							<td>
+								<img src="images/biermug.png" alt="photograph of a glass of bier">
+							</td>
+							<td>
+								<a href="https://www.pexels.com/photo/glass-mug-669213/" target="_blank">url</a>
+							</td>
+							<td>From <a href="https://www.pexels.com/u/goumbik/" target="_blank">Lukas</a> published under the <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 by 1.0</a> - Creative Commons Zero License
+							</td>
+						</tr>
+
+						
+						<tr>
+							<td>image</td>
+							<td>
+								<img src="images/contactus.png" alt="person typing on a apple computer">
+							</td>
+							<td>
+								<a href="https://www.pexels.com/photo/hands-coffee-cup-apple-5199/" target="_blank">url</a>
+							</td>
+							<td>From <a href="http://stokpic.com/" target="_blank">Stokpic.com</a> published under the <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 by 1.0</a> - Creative Commons Zero License
+							</td>
+						</tr>
+
+						<tr>
+							<td>image</td>
+							<td>
+								<img src="images/brazilflag.png" alt="map of Brazil with the flag in the middle">
+							</td>
+							<td>
+								<a href="https://pixabay.com/en/brazil-map-flag-geography-881119/" target="_blank">url</a>
+							</td>
+							<td>From <a href="https://pixabay.com/en/users/Kirstie_J-547995/" target="_blank">Kirstie_J</a> published under the <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 by 1.0</a> - Creative Commons Zero License
+							</td>
+						</tr>
+
+						<tr>
+							<td>image</td>
+							<td>
+								<img src="images/jg_noivado.jpg" alt="joyful Joao removing his hat full of red paper in it">
+							</td>
+							<td></td>
+							<td>Photograph taken by <a href="http://mylinux.langara.bc.ca/~rornellas00/resume/index.html" target="_blank">Rodrigo Ornellas</a>. All rights reserved.
+							</td>
+						</tr>
+						
+						<tr>
+							<td>image</td>
+							<td>
+								<img src="images/soccerstadium.png" alt="image of soccer stadium full of brazilian soccer fans">
+							</td>
+							<td>
+								<a href="https://www.pexels.com/photo/stadium-flag-holding-cheering-58461/" target="_blank">url</a>
+							</td>
+							<td>From <a href="https://www.pexels.com/u/caio/" target="_blank">Caio</a> published under the <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 by 1.0</a> - Creative Commons Zero License
+							</td>
+						</tr>
+
+<!-- 						<tr>
+							<td>image</td>
+							<td>
+								<img src="images/pexels-photo-338504.png" alt="image of pool side strechers on a resort">
+							</td>
+							<td>
+								<a href="https://www.pexels.com/photo/view-of-tourist-resort-338504/" target="_blank">url</a>
+							</td>
+							<td>From <a href="https://www.pexels.com/u/caio/" target="_blank">Caio</a> published under the <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0 by 1.0</a> - Creative Commons Zero License
+							</td>
+						</tr>	 -->					
+
+
+						<tr>
+							<td>articles</td>
+							<td>
+								<a href="https://en.wikipedia.org/wiki/Brazilian_Carnival" target="_blank">Brazilian Carnival</a> - Article from Wikipedia, the free encyclopedia
+							</td>
+							<td>
+								<a href="https://en.wikipedia.org/wiki/Brazilian_Carnival" target="_blank">url</a>
+							</td>
+							<td>This article is from <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a> and is available under the <a href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" target="_blank">Creative Commons Attribution-ShareAlike License</a>
+							</td>
+						</tr>			
+
+						<tr>
+							<td>articles</td>
+							<td>
+								<a href="https://en.wikipedia.org/wiki/Parintins_Folklore_Festival" target="_blank">Parintins Folklore Festival</a> - Article from Wikipedia, the free encyclopedia
+							</td>
+							<td>
+								<a href="https://en.wikipedia.org/wiki/Parintins_Folklore_Festival" target="_blank">url</a>
+							</td>
+							<td>This article is from <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a> and is available under the <a href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" target="_blank">Creative Commons Attribution-ShareAlike License</a>
+							</td>
+						</tr>
+
+						<tr>
+							<td>articles</td>
+							<td>
+								<a href="https://en.wikipedia.org/wiki/Festa_Junina" target="_blank">Festa Junina</a> - Article from Wikipedia, the free encyclopedia
+							</td>
+							<td>
+								<a href="https://en.wikipedia.org/wiki/Festa_Junina" target="_blank">url</a>
+							</td>
+							<td>This article is from <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">Wikipedia</a> and is available under the <a href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" target="_blank">Creative Commons Attribution-ShareAlike License</a>
+							</td>
+						</tr>	
+
+						<tr>
+							<td>videos</td>
+							<td>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/VTEJk8vPWFE?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+							</td>
+							<td>
+								<a href="https://www.youtube.com/embed/VTEJk8vPWFE?rel=0" target="_blank">url</a>
+							</td>
+							<td>
+								<a href="https://www.youtube.com/channel/UC8HYERScBt-e0kV0fpe0asg" target="_blank">GEOgraphy Focus</a> published under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC by 4.0</a> - Creative Commons Attribution 4.0 International License
+							</td>
+						</tr>
+
+						<tr>
+							<td>videos</td>
+							<td>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/jH4Is923kwE?rel=0&amp;showinfo=0&amp;start=101" allowfullscreen></iframe>
+							</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=jH4Is923kwE&t=1229s" target="_blank">url</a>
+							</td>
+							<td>
+								<a href="https://www.youtube.com/user/souaguiadeouro" target="_blank">Aguia de Ouro</a> published under the <a href="https://support.google.com/youtube/answer/2797468?hl=en" target="_blank">YouTube Default License</a>
+							</td>
+						</tr>
+
+						<tr>
+							<td>videos</td>
+							<td>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/Oc0LsXlXYAs?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+							</td>
+							<td>
+								<a href="https://www.youtube.com/watch?v=Oc0LsXlXYAs" target="_blank">url</a>
+							</td>
+							<td>
+								<a href="https://www.youtube.com/channel/UCUMZ7gohGI9HcU9VNsr2FJQ" target="_blank">Bloomberg</a> published under the <a href="https://support.google.com/youtube/answer/2797468?hl=en" target="_blank">YouTube Default License</a>
+							</td>
+						</tr>
+
+						
+
+					</tbody>
+					</table>
+				</div>
+
+				</section>
+
+		</main>
+
+<footer class="clearfix">
+
+			<div>
+				<p class="pbold">About us:</p>
+				 <p>Beauty Brazil is a magazine dedicated to present the incredible country of Brazil. We hope you enjoy the articles and feel moved to visit this exuberating place that will enchant you with it's people, culture, cusine and over all beauty. An experience that will change you for life.</p>
+				 <p>designed by: <a href="contact.html">Rodrigo Ornellas</a>
+				 - Copyright<i class="fa fa-copyright" aria-hidden="true"></i>2017</p>
+			</div>
+
+			<div class="aligncenter">
+
+				<p class="pbold">Contact us:</p>
+				<a href="https://www.facebook.com/joaoguilherme.silvacamargo" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"><span class="visuallyhidden">Facebook</span></i></a>
+				<a href="#" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"><span class="visuallyhidden">Twitter</span></i></a>
+				<a href="#" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"><span class="visuallyhidden">Instagram</span></i></a>
+
+			</div>
+
+			<div>
+				<p class="pbold">Menu:</p>
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="article.html">article</a></li>
+					<li><a href="events.html">events</a></li>
+					<li><a href="source.html">sources</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</ul>
+			</div>
+
+
+
+
+
+
+		</footer>
+
+		</div> 		<!-- END OF WRAPPER -->
+
+
+
+	</body>
+</html>
